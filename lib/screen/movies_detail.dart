@@ -33,8 +33,13 @@ class MovieDetail extends StatelessWidget {
                 movie.description!,
                 textAlign: TextAlign.justify,
                 style: const TextStyle(
-                  fontSize: 18.0,
-                ),
+                    fontWeight: FontWeight.bold,
+                    color: Colors.brown,
+                    fontSize: 18.0,
+                    fontFamily: 'OldStandard'),
+                // style: const TextStyle(
+                //   fontSize: 18.0,
+                // ),
               ),
               const SizedBox(
                 height: 10,

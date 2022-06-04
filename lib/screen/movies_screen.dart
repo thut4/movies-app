@@ -25,7 +25,14 @@ class MovieScreen extends StatelessWidget {
               borderRadius: BorderRadius.circular(9),
             ),
             child: ListTile(
-              title: Text(movie.title!),
+              title: Text(
+                movie.title!,
+                style: const TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.brown,
+                    fontSize: 16.0,
+                    fontFamily: 'OldStandard'),
+              ),
               subtitle: Text(movie.type!),
               leading: Image.network(movie.imageUrl!),
               trailing: const Icon(Icons.arrow_forward),
