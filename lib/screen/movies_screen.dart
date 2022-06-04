@@ -19,6 +19,11 @@ class MovieScreen extends StatelessWidget {
         itemBuilder: (BuildContext context, int index) {
           Movie movie = movieData[index];
           return Card(
+            elevation: 5.0,
+            shadowColor: Colors.black26,
+            shape: BeveledRectangleBorder(
+              borderRadius: BorderRadius.circular(9),
+            ),
             child: ListTile(
               title: Text(movie.title!),
               subtitle: Text(movie.type!),
