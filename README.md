@@ -6,7 +6,7 @@ Flutter project.
 
 Nothing special, just a simple movies-info app 
 
-![Screenshot_202](https://user-images.githubusercontent.com/62836983/172295145-a41337e7-b31f-47c0-94e5-0ffa7a94e779.jpg)
+![Screenshot_202](https://user-images.githubusercontent.com/62836983/172295565-d4d2d142-782e-4340-a977-072555f8d17f.jpg)
 
 ![Screenshot_1](https://user-images.githubusercontent.com/62836983/171994477-c3e73845-d4f0-4a9b-909a-66e1a9adbb62.jpg)
 
