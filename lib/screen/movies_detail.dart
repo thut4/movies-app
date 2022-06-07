@@ -8,6 +8,7 @@ class MovieDetail extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blueGrey,
         title: Text(
           movie.title!,
           style: const TextStyle(
@@ -32,9 +33,9 @@ class MovieDetail extends StatelessWidget {
               Text(
                 movie.description!,
                 textAlign: TextAlign.justify,
-                style: const TextStyle(
+                style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    color: Colors.brown,
+                    color: Theme.of(context).iconTheme.color,
                     fontSize: 18.0,
                     fontFamily: 'OldStandard'),
                 // style: const TextStyle(

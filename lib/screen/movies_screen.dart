@@ -27,9 +27,9 @@ class MovieScreen extends StatelessWidget {
             child: ListTile(
               title: Text(
                 movie.title!,
-                style: const TextStyle(
+                style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    color: Colors.brown,
+                    color: Theme.of(context).iconTheme.color,
                     fontSize: 16.0,
                     fontFamily: 'OldStandard'),
               ),
